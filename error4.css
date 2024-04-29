@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.one {
+    background: url(images/EG-en-20220711-popsignuptwoweeks-perspective_alpha_website_small.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.mm {
+    text-transform: capitalize;
+    color: red;
+    padding: 10px 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    transition: 0.3s;
+}
+
+.navbar ul li .sign {
+    color: white;
+    background-color: red;
+    outline: 2px solid white;
+    border-radius: 10px;
+}
+
+.navbar ul li .en {
+    color: white;
+    background-color: black;
+    outline: 2px solid white;
+    border-radius: 10px;
+}
+
+.one .center {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.one .center h1 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.one .center h2 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 850px;
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+
+.one .center h4 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 850px;
+    margin: 15px 0 0 0;
+    text-align: center;
+}
+
+hr {
+    border: 5px solid #aaa;
+}
+
+
+/******************************************/
+
+.two,
+.three,
+.four,
+.five {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: white;
+    text-transform: capitalize;
+    padding: 30px 30px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 10px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.pic {
+    justify-content: flex-end;
+}
+
+.pic img {
+    width: 70%;
+    height: 60%;
+}
+
+
+/******************************************/
+
+.six {
+    color: white;
+    text-transform: capitalize;
+}
+
+.six div {
+    margin-right: 0;
+    background-color: #aaa;
+}
+
+.six div p {
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 15px;
+}
+
+
+/******************************************/
+
+.foot {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    color: white;
+    margin-top: 40px;
+    position: relative;
+}
+
+.end {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+}
+
+.end .qq {
+    text-transform: capitalize;
+    color: #aaa;
+}
+
+.all {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 25px;
+    margin: 80px 0 0px 10px;
+}
+
+.all .same {
+    text-transform: capitalize;
+    margin: 0 40px;
+}
+
+.all .same .cont p {
+    margin: 30px 10px;
+    color: #aaa;
+}
+
+.foot .enn {
+    position: absolute;
+    left: 55px;
+    text-transform: capitalize;
+    color: #aaa;
+    border: 2px solid white;
+}
+
+.foot .net {
+    position: absolute;
+    left: 55px;
+    bottom: -60px;
+    text-transform: capitalize;
+    color: #aaa;
+}
